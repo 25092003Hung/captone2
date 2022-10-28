@@ -1,0 +1,85 @@
+@import "../base/reset";
+@import "../base/typography";
+
+@import "../utils/variable";
+
+// HEADER 
+.header {
+  .header__top {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 0 24px;
+    .header__left {
+        .logo {
+          position: absolute;
+          top: 9px;
+        }
+      
+    }
+    .header__right {
+      .cart {
+          font-weight: 300;
+        position: relative;
+        padding-right: 25px;
+        .cart__icon {
+        }
+        span {
+          font-weight: 300;
+          position: absolute;
+          top: -2px;
+          font-size: 25px;
+          color: #f6f6f6;
+        }
+      }
+
+      .login {
+        a {
+          font-weight: 300;
+          color: #f6f6f6;
+          padding: 0 20px;
+        }
+      }
+      .register {
+        a {
+          font-weight: 300;
+          color: #f6f6f6;
+        }
+      }
+    }
+  }
+
+  .navbar {
+    .container-fluid {
+        padding: 0 17px;
+        .navbar-toggler {
+
+        }
+        .navbar-collapse {
+          .navbar-nav {
+            .nav-item {
+              .nav-link {
+                position: relative;
+                font-size: 20px;
+                font-weight: 300;
+                color: $text-color;
+                margin: 0 10px;
+                &.active::after {
+                  content: '';
+                  position: absolute;
+                  width: 100%;
+                  height: 2px;
+                  background-color: $text-color;
+                  top: 40px;
+                  left: 0;
+                }
+              }
+            }
+          }
+        }
+    }
+  }
+}
+
+// MENU 
+

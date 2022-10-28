@@ -1,0 +1,70 @@
+@import "../base/reset";
+@import "../base/typography";
+
+@import "../utils/variable";
+
+// FOOTER
+footer {
+    .container-fluid {
+        .content-1 {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+            .item {
+                h4 {
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+                ul {
+                    padding-left: 0;
+                    li {
+                        a {
+                            font-size: 15px; 
+                            color: $text-color;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+
+            .item-3 ul li,
+            .item-3 ul li, p {
+                font-size: 15px;
+            }
+        }
+
+        .content-2 {
+            background-color: rgba(219, 214, 214, 0.358);
+            .container-fluid {
+                .row {
+                    width: 80%;
+                    margin: 0 auto;
+                    padding: 30px 0;
+                    .ct {
+                        h4 {
+                            font-size: 18px;
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                        }
+                        ul {
+                            padding-left: 0;
+                            li {
+                                p {
+                                    font-size: 15px;
+                                }
+                                a {
+                                    font-size: 15px; 
+                                    color: red;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+              
+            }
+            
+        }
+    }
+} 
