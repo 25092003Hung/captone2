@@ -1,0 +1,93 @@
+
+@import url('../layouts/_footer.scss');
+@import url('../layouts/_header.scss');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel
+{
+    background: #FFFFFF;
+    position: relative;
+    background-image: url('../../img/image\ 6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .img
+    {
+        img
+        {
+            width: 100%;
+        }
+    }
+    .mo-ta
+    {
+        h4
+        {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 48px;
+            color: #000000;
+        }
+        p
+        {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+        }
+        button
+        {
+            background: #F8B653;
+            width: 150px;
+            height: 50px;
+            left: 930px;
+            top: 225px;
+            span
+            {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .bg-carousel
+    {
+        position: absolute;
+        width: 1334px;
+        height: 393px;
+        left: -36px;
+        top: 107px;
+    }
+
+}
+#arr-1
+{
+    box-sizing: border-box;
+    width: 60px;
+    height: 45.71px;
+
+}
+#arr-2
+{
+    width: 60px;
+    height: 45.71px;
+    box-sizing: border-box;
+}
+@media all and (max-width: 576px) {
+
+        #arr-1,#arr-2
+        {
+            display: none;
+        }
+
+  }

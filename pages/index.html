@@ -17,9 +17,17 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@300;400;600;700;900&family=Volkhov:wght@400;700&display=swap"
     rel="stylesheet">
-
-  <link rel="stylesheet" href="/css/style.min.css">
+<!-- owl carousel -->
+<link rel="stylesheet" href="../css/owl.carousel.min.css">
+<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+<!-- owl carousel -->
+ <link rel="stylesheet" href="../css/style.min.css">
 </head>
+<!-- font -->
+<!-- FontAwesome 6.2.0 CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <body>
   <!-- HEADER  -->
@@ -74,26 +82,79 @@
     </nav>
   </header>
 
-  <!-- MAIN  -->
-  <main>
-    <div class="product">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-3 col-md-3 col-xs-12">
-  
+  <!-- Carousel  STAR-->
+  <section class="carousel">
+    <div class="owl-carousel owl-theme">
+      <!-- 1 -->
+      <div class="item">
+        <div class="row doi-giay" style="align-items:center ;">
+          <div class="col-lg-1 col-md-1 col-sm-1">
+            <img src="../img/Polygon 2.png" alt="" id="arr-2">
           </div>
-  
-          <div class="col-xl-9 col-md-9 col-xs-12">
-            
-          </div>
+          <div class="img col-lg-6 col-md-6 col-sm-6">
+            <img src="../img/image 4.png" alt="">
+        </div>
+        <div class="mo-ta col-lg-4 col-md-4 col-sm-4">
+          <h4>Product Name</h4>
+          <p>Product Name</p>
+          <button><Span>Buy Now</Span></button>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1">
+          <img src="../img/Polygon 1.png" alt="" id="arr-1">
         </div>
       </div>
+  </div>
+  <!-- 2 -->
+  <div class="item">
+    <div class="row doi-giay" style="align-items:center ;">
+      <div class="col-lg-1 col-md-1 col-sm-1">
+        <img src="../img/Polygon 2.png" alt="" id="arr-2">
+      </div>
+      <div class="img col-lg-6 col-md-6 col-sm-6">
+        <img src="../img/image 4.png" alt="">
     </div>
-   
-  </main>
-  
+    <div class="mo-ta col-lg-4 col-md-4 col-sm-4">
+      <h4>Product Name</h4>
+      <p>Product Name</p>
+      <button><Span>Buy Now</Span></button>
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1">
+      <img src="../img/Polygon 1.png" alt="" id="arr-1">
+    </div>
+  </div>
+</div>
+  <!-- 3 -->
+  <div class="item">
+    <div class="row doi-giay" style="align-items:center ;">
+      <div class="col-lg-1 col-md-1 col-sm-1">
+        <img src="../img/Polygon 2.png" alt="" id="arr-2">
+      </div>
+      <div class="img col-lg-6 col-md-6 col-sm-6">
+        <img src="../img/image 4.png" alt="">
+    </div>
+    <div class="mo-ta col-lg-4 col-md-4 col-sm-4">
+      <h4>Product Name</h4>
+      <p>Product Name</p>
+      <button><Span>Buy Now</Span></button>
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1">
+      <img src="../img/Polygon 1.png" alt="" id="arr-1">
+    </div>
+  </div>
+</div>
+
+  </section>
+  <!-- Carousel  END-->
+
+
+
+
+
+
+
+
   <!-- FOOTER -->
-  <footer>
+  <!-- <footer>
     <div class="container-fluid">
       <div class="row footer__content content-1">
         <div class="col-xl-5 col-md-5 col-xs-12 item item-1">
@@ -172,7 +233,7 @@
       
       </div>
     </div>
-  </footer>
+  </footer> -->
 
   <!-- BACK TO TOP  -->
 
@@ -189,8 +250,26 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"
     integrity="sha512-0qU9M9jfqPw6FKkPafM3gy2CBAvUWnYVOfNPDYKVuRTel1PrciTj+a9P3loJB+j0QmN2Y0JYQmkBBS8W+mbezg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- jquery -->
+<script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/detail.js"></script>
 
-  <script src="/js/detail.js"></script>
+
+
+  <!-- owl carousel -->
+<script>
+$('.owl-carousel').owlCarousel({
+    items:1,
+    lazyLoad:true,
+    loop:true,
+    margin:10
+});
+</script>
+  <!-- owl carousel -->
+
+
 </body>
 
 </html>
