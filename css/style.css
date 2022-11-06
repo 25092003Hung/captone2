@@ -608,6 +608,9 @@ footer .container-fluid .content-2 .container-fluid .row .ct ul li a {
   line-height: 29px;
   color: black;
 }
+.product .list-item .item .background .content-text p {
+  height: 95px;
+}
 .product .list-item .item .background .button {
   display: flex;
   align-items: center;
