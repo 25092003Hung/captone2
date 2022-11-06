@@ -29,7 +29,7 @@ for (let i = 0; arrProduct.length;i++){
                 <p>${arrProduct[i].description.length >100 ?arrProduct[i].description.substr(0,100)+'...' :arrProduct[i].description}</p>
               </div>
               <div class="button">
-                <a href="./detail.html"><button class="buynow"><span>Buy Now</span></button></a>
+                <a href="./detail.html?magiay=${arrProduct[i].id}"><button class="buynow"><span>Buy Now</span></button></a>
                 <div class="price"><span>${arrProduct[i].price}</span></div>
               </div>
             </div>
