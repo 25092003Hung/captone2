@@ -571,4 +571,74 @@ footer .container-fluid .content-2 .container-fluid .row .ct ul li a {
   #arr-1, #arr-2 {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+.product .content-header {
+  text-align: center;
+  margin-top: 16px;
+}
+.product .content-header h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+.product .list-item .item {
+  padding: 57px 45px;
+}
+.product .list-item .item .background {
+  background-color: #F8F8F8;
+}
+.product .list-item .item .background .img-product {
+  text-align: center;
+}
+.product .list-item .item .background .img-product img {
+  width: 220px;
+  height: 156px;
+}
+.product .list-item .item .background .content-text {
+  margin-left: 23px;
+}
+.product .list-item .item .background .content-text h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
+}
+.product .list-item .item .background .button {
+  display: flex;
+  align-items: center;
+}
+.product .list-item .item .background .button .buynow {
+  width: 50%;
+  background: #E1B067;
+  width: 175px;
+  height: 64px;
+}
+.product .list-item .item .background .button .buynow span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+  color: black;
+}
+.product .list-item .item .background .button .price {
+  height: 64px;
+  width: 50%;
+  background-color: #DEDDDC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product .list-item .item .background .button .price span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: block;
+}

@@ -92,3 +92,101 @@
         }
 
   }
+
+
+.product
+{
+    .content-header
+    {
+        text-align: center;
+        margin-top: 16px;
+        h2
+        {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 48px;
+            color: #000000;
+
+        }
+    }
+    .list-item
+    {
+        .item
+        {
+            padding: 57px 45px;
+            .background
+            {
+                background-color: #F8F8F8;
+                .img-product
+                {            
+                    text-align: center;
+                    img
+                    {
+                        width: 220px;
+                        height: 156px;
+                    }
+                }
+                .content-text
+                {
+                    margin-left: 23px;
+                    h5
+                    {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: black;
+                    }
+                    p
+                    {
+
+                    }
+                }
+                .button
+                {
+                    display: flex;
+                    align-items: center;
+                    .buynow
+                    {
+                        width: 50%;
+                        background: #E1B067;
+                        width: 175px;
+                        height: 64px;
+                        
+                        span
+                        {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 200;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: black;
+                        }
+                    }
+                    .price
+                    {
+                        height: 64px;
+                        width: 50%;
+                        background-color: #DEDDDC;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        span
+                        {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 29px;
+                            display: block;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
