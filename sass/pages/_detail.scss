@@ -4,5 +4,76 @@
 // MAIN 
 // PRODUCT NAME 
 .product {
-    padding: 100px 0;
+    // padding: 100px 0;
+    .container {
+        .row {
+            margin-top: 36px;
+            .image-product {
+                img {
+                    margin-left: 100px;
+                    padding: 109px 57px 90px 57px;
+                    background-color: #F8F8F8;
+                }
+            }
+            .product-detail {
+                h3 {
+                    color: $text-color;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 36px;
+                }
+                p {
+                    color: #140101;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 19.36px;
+                }
+                h4 {
+                    color: #1ED90E;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 29.05px;
+                }
+                .size {
+                    .size-number {
+                        padding: 11px 10px;
+                        text-align: center;
+                        line-height: 29px;
+                        margin: 17px 10px 17px 0;
+                        font-size: 24px;
+                        font-weight: 600;
+                        color: #1E1D1D;
+                        background-color: #CCCCCC;
+                    }
+                    }
+                .price {
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #FC0303;
+                    margin-bottom: 17px;
+                    }
+                .addtocart {
+                    font-weight: 400;
+                    font-size: 30px;
+                    .fa {
+                        font-size: 30px;
+                        color: #FFFCFC;
+                        padding: 7px 10px;
+                        background: $add-remove-icon-bgcolor;
+                    }
+                    .btn-addtocart {
+                        font-size: 24px;
+                        color: #FFF8F8;
+                        background: $add-to-cart-bgcolor;
+                        padding: 5px 25px;
+                        border: none;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
 }

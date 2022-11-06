@@ -1,6 +1,7 @@
 
-@import url('../layouts/_footer.scss');
-@import url('../layouts/_header.scss');
+@import '../layouts/header';
+@import '../layouts/footer';
+
 *
 {
     margin: 0;

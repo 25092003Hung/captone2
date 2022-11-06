@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Detail page</title>
+  <title>Index page</title>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -97,7 +97,8 @@
         <div class="mo-ta col-lg-4 col-md-4 col-sm-4">
           <h4>Product Name</h4>
           <p>Product Name</p>
-          <button><Span>Buy Now</Span></button>
+          <a href="./detail.html?productid=${product.id}" class="btn bg-warning text-white">Buy now</a>
+          <!-- <button><span>Buy Now</span></button> -->
         </div>
         <div class="col-lg-1 col-md-1 col-sm-1">
           <img src="../img/Polygon 1.png" alt="" id="arr-1">
@@ -116,7 +117,8 @@
     <div class="mo-ta col-lg-4 col-md-4 col-sm-4">
       <h4>Product Name</h4>
       <p>Product Name</p>
-      <button><Span>Buy Now</Span></button>
+      <!-- <button><Span>Buy Now</Span></button> -->
+      <a href="./detail.html?productid=2" class="btn bg-warning text-white">Buy now</a>
     </div>
     <div class="col-lg-1 col-md-1 col-sm-1">
       <img src="../img/Polygon 1.png" alt="" id="arr-1">
@@ -135,7 +137,8 @@
     <div class="mo-ta col-lg-4 col-md-4 col-sm-4">
       <h4>Product Name</h4>
       <p>Product Name</p>
-      <button><Span>Buy Now</Span></button>
+      <!-- <button><Span>Buy Now</Span></button> -->
+      <a href="./detail.html?productid=3" class="btn bg-warning text-white">Buy now</a>
     </div>
     <div class="col-lg-1 col-md-1 col-sm-1">
       <img src="../img/Polygon 1.png" alt="" id="arr-1">
@@ -145,13 +148,6 @@
 
   </section>
   <!-- Carousel  END-->
-
-
-
-
-
-
-
 
   <!-- FOOTER -->
   <!-- <footer>
@@ -270,6 +266,7 @@ $('.owl-carousel').owlCarousel({
   <!-- owl carousel -->
 
 
+<script src="../js/index.js"></script>  
 </body>
 
 </html>
