@@ -642,3 +642,203 @@ footer .container-fluid .content-2 .container-fluid .row .ct ul li a {
   line-height: 29px;
   display: block;
 }
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header .header__top {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding: 0 24px;
+}
+.header .header__top .header__left .logo {
+  position: absolute;
+  top: 9px;
+}
+.header .header__top .header__right .cart {
+  font-weight: 300;
+  position: relative;
+  padding-right: 25px;
+}
+.header .header__top .header__right .cart span {
+  font-weight: 300;
+  position: absolute;
+  top: -2px;
+  font-size: 25px;
+  color: #f6f6f6;
+}
+.header .header__top .header__right .login a {
+  font-weight: 300;
+  color: #f6f6f6;
+  padding: 0 20px;
+}
+.header .header__top .header__right .register a {
+  font-weight: 300;
+  color: #f6f6f6;
+}
+.header .navbar .container-fluid {
+  padding: 0 17px;
+}
+.header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  margin: 0 10px;
+}
+.header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  top: 40px;
+  left: 0;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer .container-fluid .content-1 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+footer .container-fluid .content-1 .item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+footer .container-fluid .content-1 .item ul {
+  padding-left: 0;
+}
+footer .container-fluid .content-1 .item ul li a {
+  font-size: 15px;
+  color: #000000;
+  font-weight: normal;
+}
+footer .container-fluid .content-1 .item-3 ul li,
+footer .container-fluid .content-1 .item-3 ul li, footer .container-fluid .content-1 p {
+  font-size: 15px;
+}
+footer .container-fluid .content-2 {
+  background-color: rgba(219, 214, 214, 0.358);
+}
+footer .container-fluid .content-2 .container-fluid .row {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+footer .container-fluid .content-2 .container-fluid .row .ct h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+footer .container-fluid .content-2 .container-fluid .row .ct ul {
+  padding-left: 0;
+}
+footer .container-fluid .content-2 .container-fluid .row .ct ul li p {
+  font-size: 15px;
+}
+footer .container-fluid .content-2 .container-fluid .row .ct ul li a {
+  font-size: 15px;
+  color: red;
+}
+
+.register .input input {
+  height: 40px;
+  border: none;
+  border-bottom: 5px solid #AE18E2;
+}
+.register .input input::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: black;
+}
+.register .input input:-ms-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: black;
+}
+.register .input input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: black;
+}
+.register .radio {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+}
+.register .radio input {
+  margin-left: 6.54px;
+  width: 65.42px;
+  height: 50px;
+}
+.register .radio input[name=gender] {
+  accent-color: #AE18E2;
+}
+.register button {
+  background: #AE18E2;
+  width: 291px;
+  height: 50px;
+  margin-top: 85px;
+}
+.register button h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFCFC;
+}

@@ -1,0 +1,60 @@
+@import '../layouts/header';
+@import '../layouts/footer';
+
+
+.register
+{
+    .input
+    {
+        input
+        {
+            height: 40px;
+            border: none;
+            border-bottom: 5px solid #AE18E2;
+            &::placeholder
+            {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            color: black;
+            }
+        }
+    }
+    .radio
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        input
+        {
+            margin-left: 6.54px;
+            width: 65.42px;
+            height: 50px;
+            &[name="gender"]{
+                accent-color: #AE18E2;
+            }
+        }
+    }
+    button
+    {
+        background: #AE18E2;
+        width: 291px;
+        height: 50px;
+        margin-top: 85px;
+        h1
+        {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            color: #FFFCFC;
+        }
+    }
+}
