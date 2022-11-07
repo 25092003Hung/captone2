@@ -45,12 +45,12 @@ function renderProduct(arrProduct) {
   for (let i = 0; arrProduct.length; i++) {
     var item = arrProduct[i];
     content += `
-        <div class="col-xl-4 col-md-4 col-xs-12 product-realate">
-            <img class="w-100" src="${item.image}" alt="" style="object-fit: cover" height="250px">
-            <p class="text-center">${item.name}</p>
-            <div class="text-center">
-            <button class="btn btn-warning">Buy now</button>
-            <button class="btn btn-light">${item.price}$</button>
+        <div class="col-xl-4 col-md-4 col-xs-12 text-center product-realate">
+            <img class="w-auto" src="${item.image}" alt="" style="object-fit: cover" height="300px">
+            <p>${item.name}</p>
+            <div>
+            <button class="btn btn-warning px-5 py-2">Buy now</button>
+            <button class="btn btn-light px-5 py-2">${item.price}$</button>
             </div>
         </div>
         `;

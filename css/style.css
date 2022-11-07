@@ -351,6 +351,7 @@ footer .container-fluid .content-2 .container-fluid .row .ct ul li a {
   color: #FFFCFC;
   padding: 7px 10px;
   background: linear-gradient(180deg, #6181F3 0%, #7C97F5 99.48%);
+  cursor: pointer;
 }
 .product .container .row .product-detail .addtocart .btn-addtocart {
   font-size: 24px;
